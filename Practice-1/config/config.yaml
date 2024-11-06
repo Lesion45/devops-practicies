@@ -1,0 +1,13 @@
+env: "prod" # options: local dev prod
+
+storage:
+  host: "db"
+  port: 5432
+  user: "postgres"
+  password: "admin"
+  dbname: "avito"
+
+http-server:
+  address: "0.0.0.0:5000"
+  timeout: 10s
+  idle-timeout: 60s
